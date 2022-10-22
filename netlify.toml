@@ -1,0 +1,10 @@
+[build]
+command = "npm run build"
+publish = "dist" # "build"
+
+[dev]
+command = "npm run dev -- --host" 
+targetPort = 5173 
+port = 9090 
+autoLaunch = false
+functionsPort = 9091
